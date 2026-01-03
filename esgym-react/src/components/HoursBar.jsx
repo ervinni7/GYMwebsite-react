@@ -19,19 +19,32 @@ export default function HoursBar() {
   }, []);
 
   return (
-    <div className="mt-4 rounded-3 p-3" style={{ background: "#fff2df" }}>
-      <Row className="align-items-center">
-        <Col md={8} className="fw-bold">
-          ORARI I HAPJES:{" "}
-          <span className="fw-semibold text-secondary">
-            E hënë - E shtunë 06:00 - 00:00
+    <div
+      style={{
+        marginTop: 20,
+        padding: 16,
+        borderRadius: 12,
+        backgroundColor: "#fff2df",
+      }}
+    >
+      <Row style={{ alignItems: "center" }}>
+        <Col md={8} style={{ fontWeight: 700 }}>
+          ORARI I HAPJES:{"   "}
+          <span style={{ fontWeight: 600, color: "#6c757d" }}>
+              E hënë - E shtunë 06:00 - 00:00
           </span>
         </Col>
 
-        <Col md={4} className="text-md-end mt-2 mt-md-0">
+        <Col md={4} style={{ textAlign: "right", marginTop: 8 }}>
           <Badge
-            className="px-3 py-2 rounded-3"
-            style={{ background: "#ff7a00", fontSize: 16 }}
+            bg="none"
+            style={{
+              padding: "8px 14px",
+              borderRadius: 10,
+              backgroundColor: "#ff7a00",
+              color: "#fff",
+              fontSize: 16,
+            }}
           >
             ⏱ {time}
           </Badge>

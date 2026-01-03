@@ -7,11 +7,32 @@ import Footer from "../components/Footer";
 
 export default function RrethNeshPage() {
   return (
-    <div style={{ background: "#f6f6f6", minHeight: "100vh" }}>
+    <div
+      className="page-root"
+      style={{
+        backgroundColor: "#f6f6f6",
+        minHeight: "100vh",
+      }}
+    >
       <NavbarTop />
 
-      <Container className="py-4" style={{ maxWidth: 980 }}>
-        <div className="bg-white rounded-4 shadow-sm p-4">
+      <Container
+        className="page-container"
+        style={{
+          maxWidth: 980,
+          paddingTop: 16,
+          paddingBottom: 16,
+        }}
+      >
+        <div
+          className="page-card"
+          style={{
+            backgroundColor: "#fff",
+            borderRadius: 16,
+            boxShadow: "0 6px 16px rgba(0,0,0,0.08)",
+            padding: 24,
+          }}
+        >
           <AboutSection />
           <HoursBar />
           <ContactCard />

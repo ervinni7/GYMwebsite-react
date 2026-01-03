@@ -24,16 +24,8 @@ Projekti demonstron:
 Stilimi është bërë kryesisht me inline styles për të shmangur ndikimin global të klasave dhe për ta mbajtur kodin të thjeshtë.
 
 🧩 Struktura e projektit
+
+
 src/
-├── components/
-│ ├── NavbarTop.jsx
-│ ├── AboutSection.jsx
-│ ├── HoursBar.jsx
-│ ├── ContactCard.jsx
-│ └── Footer.jsx
-├── pages/
-│ └── RrethNeshPage.jsx
-├── assets/
-│ └── (fotot dhe logo)
-├── App.jsx
-└── main.jsx
+
+<img width="462" height="371" alt="image" src="https://github.com/user-attachments/assets/2cd46609-a98c-48a9-9c60-2bf042f5becd" />
